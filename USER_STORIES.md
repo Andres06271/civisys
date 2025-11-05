@@ -1,6 +1,6 @@
 # 📝 USER_STORIES.md - Historias de Usuario del Sistema Civisys
 
-**Versión:** 1.0  
+**Versión:** 1.2  
 **Fecha:** 2025-11-04  
 **Autor:** Equipo Civisys
 
@@ -83,7 +83,8 @@ graph TB
 
 **Prioridad:** 🔴 Alta  
 **Story Points:** 5  
-**Dependencias:** Ninguna
+**Dependencias:** Ninguna  
+**Tickets relacionados:** [PRO-17](https://linear.app/proyecto-formulacion/issue/PRO-17/formulario-basico-de-reporte-de-incidente), [PRO-18](https://linear.app/proyecto-formulacion/issue/PRO-18/seleccion-de-ubicacion-en-mapa-para-reporte), [PRO-19](https://linear.app/proyecto-formulacion/issue/PRO-19/adjuntar-fotos-de-evidencia-al-reporte), [PRO-21](https://linear.app/proyecto-formulacion/issue/PRO-21/guardar-reporte-completo-con-id-unico)
 
 **Criterios de Aceptación:**
 
@@ -132,7 +133,8 @@ Feature: Reporte de incidente por ciudadano
 
 **Prioridad:** 🟡 Media  
 **Story Points:** 3  
-**Dependencias:** US-001
+**Dependencias:** US-001  
+**Tickets relacionados:** [PRO-6](https://linear.app/proyecto-formulacion/issue/PRO-6/us-002-consultar-el-estado-de-un-reporte)
 
 **Criterios de Aceptación:**
 
@@ -176,7 +178,8 @@ Feature: Consulta de estado de reporte
 
 **Prioridad:** 🔴 Alta  
 **Story Points:** 5  
-**Dependencias:** US-001
+**Dependencias:** US-001  
+**Tickets relacionados:** [PRO-22](https://linear.app/proyecto-formulacion/issue/PRO-22/dashboard-de-reportes-pendientes-para-analista), [PRO-23](https://linear.app/proyecto-formulacion/issue/PRO-23/validar-reporte-con-severidad), [PRO-24](https://linear.app/proyecto-formulacion/issue/PRO-24/descartar-reporte-invalido-o-duplicado)
 
 **Criterios de Aceptación:**
 
@@ -232,7 +235,8 @@ Feature: Validación de reportes por analista
 
 **Prioridad:** 🟡 Media  
 **Story Points:** 3  
-**Dependencias:** US-003
+**Dependencias:** US-003  
+**Tickets relacionados:** [PRO-8](https://linear.app/proyecto-formulacion/issue/PRO-8/us-004-ver-historial-y-metricas-de-reportes)
 
 **Criterios de Aceptación:**
 
@@ -265,7 +269,8 @@ Feature: Historial y métricas de reportes
 
 **Prioridad:** 🔴 Alta  
 **Story Points:** 5  
-**Dependencias:** US-003
+**Dependencias:** US-003  
+**Tickets relacionados:** [PRO-25](https://linear.app/proyecto-formulacion/issue/PRO-25/lista-de-reportes-validados-para-gestor), [PRO-26](https://linear.app/proyecto-formulacion/issue/PRO-26/mapa-con-ubicaciones-de-incidentes-para-gestor), [PRO-27](https://linear.app/proyecto-formulacion/issue/PRO-27/contadores-y-estadisticas-basicas-para-gestor)
 
 **Criterios de Aceptación:**
 
@@ -305,7 +310,8 @@ Feature: Dashboard de reportes para gestor
 
 **Prioridad:** 🔴 Alta  
 **Story Points:** 8  
-**Dependencias:** US-003, US-005
+**Dependencias:** US-003, US-005  
+**Tickets relacionados:** [PRO-28](https://linear.app/proyecto-formulacion/issue/PRO-28/crear-orden-de-trabajo-vinculada-a-reporte), [PRO-29](https://linear.app/proyecto-formulacion/issue/PRO-29/asignar-ingeniero-a-orden-de-trabajo), [PRO-30](https://linear.app/proyecto-formulacion/issue/PRO-30/notificar-por-email-al-ingeniero-asignado)
 
 **Criterios de Aceptación:**
 
@@ -357,7 +363,8 @@ Feature: Creación de orden de trabajo
 
 **Prioridad:** 🟡 Media  
 **Story Points:** 5  
-**Dependencias:** US-005
+**Dependencias:** US-005  
+**Tickets relacionados:** [PRO-31](https://linear.app/proyecto-formulacion/issue/PRO-31/exportar-reportes-a-csv), [PRO-32](https://linear.app/proyecto-formulacion/issue/PRO-32/exportar-reportes-a-pdf)
 
 **Criterios de Aceptación:**
 
@@ -403,7 +410,8 @@ Feature: Exportación de reportes
 
 **Prioridad:** 🟡 Media  
 **Story Points:** 3  
-**Dependencias:** US-001, US-003
+**Dependencias:** US-001, US-003  
+**Tickets relacionados:** [PRO-12](https://linear.app/proyecto-formulacion/issue/PRO-12/us-008-recibir-notificaciones-de-eventos-criticos)
 
 **Criterios de Aceptación:**
 
@@ -443,7 +451,8 @@ Feature: Notificaciones de eventos críticos
 
 **Prioridad:** 🔴 Alta  
 **Story Points:** 3  
-**Dependencias:** US-006
+**Dependencias:** US-006  
+**Tickets relacionados:** [PRO-13](https://linear.app/proyecto-formulacion/issue/PRO-13/us-009-ver-ordenes-de-trabajo-asignadas)
 
 **Criterios de Aceptación:**
 
@@ -478,7 +487,8 @@ Feature: Visualización de OTs asignadas
 
 **Prioridad:** 🔴 Alta  
 **Story Points:** 8  
-**Dependencias:** US-009
+**Dependencias:** US-009  
+**Tickets relacionados:** [PRO-33](https://linear.app/proyecto-formulacion/issue/PRO-33/formulario-basico-de-bitacora-de-obra), [PRO-34](https://linear.app/proyecto-formulacion/issue/PRO-34/adjuntar-fotos-de-evidencia-en-bitacora), [PRO-35](https://linear.app/proyecto-formulacion/issue/PRO-35/actualizar-estado-de-ot-automaticamente-al-registrar-avance), [PRO-36](https://linear.app/proyecto-formulacion/issue/PRO-36/finalizar-obra-y-notificar-al-gestor)
 
 **Criterios de Aceptación:**
 
@@ -541,7 +551,8 @@ Feature: Registro de avance de obra
 
 **Prioridad:** 🟡 Media  
 **Story Points:** 2  
-**Dependencias:** US-010
+**Dependencias:** US-010  
+**Tickets relacionados:** [PRO-15](https://linear.app/proyecto-formulacion/issue/PRO-15/us-011-ver-historial-de-bitacoras-de-una-ot)
 
 **Criterios de Aceptación:**
 
@@ -568,7 +579,8 @@ Feature: Historial de bitácoras
 
 **Prioridad:** 🟢 Baja  
 **Story Points:** 5  
-**Dependencias:** US-007
+**Dependencias:** US-007  
+**Tickets relacionados:** [PRO-16](https://linear.app/proyecto-formulacion/issue/PRO-16/us-012-acceder-a-reportes-consolidados-solo-lectura)
 
 **Criterios de Aceptación:**
 
@@ -722,6 +734,31 @@ graph TB
 - **Arquitectura del Sistema:** `/ARCHITECTURE.md`
 - **Guía para Agentes:** `/agents.md`
 - **Esquema de Base de Datos:** `/context/database.sql`
+
+---
+
+## 9. Trazabilidad Historias ↔ Tickets
+
+La siguiente tabla mapea cada Historia de Usuario con los tickets de implementación definidos en el plan del proyecto (`PROJECT_PLAN.md`). Los IDs tipo `PRO-xx` representan tickets del backlog.
+
+| Historia | Resumen | Tickets | Fase (según Roadmap) | Prioridad |
+|---------|---------|---------|-----------------------|-----------|
+| US-001 | Reportar incidente | [PRO-17](https://linear.app/proyecto-formulacion/issue/PRO-17/formulario-basico-de-reporte-de-incidente), [PRO-18](https://linear.app/proyecto-formulacion/issue/PRO-18/seleccion-de-ubicacion-en-mapa-para-reporte), [PRO-19](https://linear.app/proyecto-formulacion/issue/PRO-19/adjuntar-fotos-de-evidencia-al-reporte), [PRO-21](https://linear.app/proyecto-formulacion/issue/PRO-21/guardar-reporte-completo-con-id-unico) | Fase 1 (MVP) | Alta |
+| US-002 | Consultar estado de reporte | [PRO-6](https://linear.app/proyecto-formulacion/issue/PRO-6/us-002-consultar-el-estado-de-un-reporte) | Fase 2 | Media |
+| US-003 | Validar y clasificar reporte | [PRO-22](https://linear.app/proyecto-formulacion/issue/PRO-22/dashboard-de-reportes-pendientes-para-analista), [PRO-23](https://linear.app/proyecto-formulacion/issue/PRO-23/validar-reporte-con-severidad), [PRO-24](https://linear.app/proyecto-formulacion/issue/PRO-24/descartar-reporte-invalido-o-duplicado) | Fase 1 (MVP) | Alta |
+| US-004 | Historial y métricas | [PRO-8](https://linear.app/proyecto-formulacion/issue/PRO-8/us-004-ver-historial-y-metricas-de-reportes) | Fase 2 | Media |
+| US-005 | Dashboard gestor | [PRO-25](https://linear.app/proyecto-formulacion/issue/PRO-25/lista-de-reportes-validados-para-gestor), [PRO-26](https://linear.app/proyecto-formulacion/issue/PRO-26/mapa-con-ubicaciones-de-incidentes-para-gestor), [PRO-27](https://linear.app/proyecto-formulacion/issue/PRO-27/contadores-y-estadisticas-basicas-para-gestor) | Fase 1 (MVP) | Alta |
+| US-006 | Crear OT y asignar | [PRO-28](https://linear.app/proyecto-formulacion/issue/PRO-28/crear-orden-de-trabajo-vinculada-a-reporte), [PRO-29](https://linear.app/proyecto-formulacion/issue/PRO-29/asignar-ingeniero-a-orden-de-trabajo), [PRO-30](https://linear.app/proyecto-formulacion/issue/PRO-30/notificar-por-email-al-ingeniero-asignado) | Fase 1 (MVP) | Alta |
+| US-007 | Exportar reportes | [PRO-31](https://linear.app/proyecto-formulacion/issue/PRO-31/exportar-reportes-a-csv), [PRO-32](https://linear.app/proyecto-formulacion/issue/PRO-32/exportar-reportes-a-pdf) | Fase 2 | Media |
+| US-008 | Notificaciones críticas | [PRO-12](https://linear.app/proyecto-formulacion/issue/PRO-12/us-008-recibir-notificaciones-de-eventos-criticos) | Fase 2 | Media |
+| US-009 | Ver OTs asignadas | [PRO-13](https://linear.app/proyecto-formulacion/issue/PRO-13/us-009-ver-ordenes-de-trabajo-asignadas) | Fase 1 (MVP) | Alta |
+| US-010 | Registrar avance con bitácora | [PRO-33](https://linear.app/proyecto-formulacion/issue/PRO-33/formulario-basico-de-bitacora-de-obra), [PRO-34](https://linear.app/proyecto-formulacion/issue/PRO-34/adjuntar-fotos-de-evidencia-en-bitacora), [PRO-35](https://linear.app/proyecto-formulacion/issue/PRO-35/actualizar-estado-de-ot-automaticamente-al-registrar-avance), [PRO-36](https://linear.app/proyecto-formulacion/issue/PRO-36/finalizar-obra-y-notificar-al-gestor) | Fase 1 (MVP) | Alta |
+| US-011 | Ver historial de bitácoras | [PRO-15](https://linear.app/proyecto-formulacion/issue/PRO-15/us-011-ver-historial-de-bitacoras-de-una-ot) | Fase 2 | Media |
+| US-012 | Acceso entidades externas | [PRO-16](https://linear.app/proyecto-formulacion/issue/PRO-16/us-012-acceder-a-reportes-consolidados-solo-lectura) | Fase 3 | Baja |
+
+Notas:
+- Un mismo ticket puede apoyar varias historias (ej: PRO-30 afecta creación de OT y notificaciones).
+- La priorización y fases siguen el Roadmap de este documento y el `PROJECT_PLAN.md`.
 
 ---
 
